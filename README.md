@@ -52,12 +52,15 @@ If you find this code, dataset, or framework useful for your research, please ci
 
 ```bibtex
 coming soon
+```
 <!--  
-@article{mod2sad2026,
+```@article{mod2sad2026,
   title={MOD SAD: Enhancing Malicious Office Document Detection through Semantic Aware Deobfuscation},
   author={},
   journal={[Scientific Reports]},
   year={[2026]},
   publisher={[Springer]}
-}-->
+}
 ```
+-->
+
