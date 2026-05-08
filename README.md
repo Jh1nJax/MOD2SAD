@@ -51,10 +51,13 @@ python main.py
 If you find this code, dataset, or framework useful for your research, please cite our paper:
 
 ```bibtex
+coming soon
+<!--  
 @article{mod2sad2026,
   title={MOD SAD: Enhancing Malicious Office Document Detection through Semantic Aware Deobfuscation},
   author={},
   journal={[Scientific Reports]},
   year={[2026]},
   publisher={[Springer]}
-}
+}-->
+```
