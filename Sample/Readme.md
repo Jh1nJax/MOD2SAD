@@ -4,7 +4,7 @@ The dataset used to evaluate the $MOD^2SAD$ framework comprises a comprehensive 
 
 **Data Sources:**
 * **MalDoc Dataset:** Benign documents and a baseline of malicious samples are sourced from the MalDoc benchmark.
-* **MalwareBazaar:** To ensure our framework is evaluated against the latest threat landscape and sophisticated obfuscation techniques, recent malicious samples were collected from [MalwareBazaar](https://bazaar.abuse.ch/).
+* **MalwareBazaar:** To ensure our framework is evaluated against the latest threat landscape and sophisticated obfuscation techniques, recent malicious samples (spanning up to 2025.09) were collected from [MalwareBazaar](https://bazaar.abuse.ch/).
 
 **⚠️ Important Notice Regarding Malware Distribution:**
 In strict compliance with GitHub's Acceptable Use Policies and broader cybersecurity community guidelines, **this repository does not contain any raw malicious document files or live payloads**. 
