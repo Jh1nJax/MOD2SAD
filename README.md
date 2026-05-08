@@ -44,6 +44,7 @@ Once your LLM API is configured, you can run the entire static analysis and feat
 
 ```bash
 python main.py
+```
 
 ## 📜 Citation
 
