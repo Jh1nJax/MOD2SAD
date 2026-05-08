@@ -24,15 +24,26 @@ The MOD²SAD framework consists of four primary modules:
 
 ## ⚙️ Installation
 
-[Please detail the required environment, e.g., `pip install -r requirements.txt`, required Python version, and any specific setup instructions for PyCaret, OleVBA, or LLM SDKs like Ollama/OpenAI API here.]
+Please detail the required environment, e.g., `pip install -r requirements.txt`, required Python version, and any specific setup instructions for PyCaret, OleVBA, or LLM SDKs like Ollama/OpenAI API here.
 
 ## 🚀 Usage
 
-[Please describe how to run your code here. For example:
-- How to configure the LLM API keys.
-- How to run the OASA module.
-- How to execute the full pipeline on a sample document.
-- Example command-line usage: `python main.py --file sample.doc --model qwen3-coder`]
+### 1. LLM Configuration
+Before running the deobfuscation engine, you need to configure your Large Language Model (LLM) settings. 
+
+Open the `LLM_for_deobfucate.py` file and specify your API credentials:
+* Fill in the `api_key` and `base_url` variables.
+* **Note:** The script is built to support the standard **OpenAI API format**. This means you can seamlessly integrate both **online cloud models** (e.g., Qwen, DeepSeek, Claude via compatible endpoints) and **locally deployed models** (e.g., using Ollama or vLLM).
+
+### 2. Execute the Full Pipeline
+Once your LLM API is configured, you can run the entire static analysis and feature extraction pipeline on your dataset:
+
+1. Open `main.py`.
+2. Locate the `folder_name` variable and set it to the path of the directory containing your Office document samples (e.g., `folder_name = "./datasets/malicious_samples/"`).
+3. Execute the script from your terminal:
+
+```bash
+python main.py
 
 ## 📜 Citation
 
